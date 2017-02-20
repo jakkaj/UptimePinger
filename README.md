@@ -4,6 +4,8 @@
 
 *Jordan Knight, Feb 20, 2017*
 
+*Note: You will need a Microsoft Azure account for this. If you don't have one you may be eligible for a [free trial account](https://azure.microsoft.com/en-us/free/?&WT.srch=1&WT.mc_ID=AID529445_SEM_CfMPSCw3). 
+
 Since getting an upgrade recently my home internet has been very unstable with up to 39 drop outs a day. 
 
 I did the usual thing and rang my provider - only to be told that "it's currently working" and there is not much they can do. Of course, it was working when I called. 
@@ -34,7 +36,7 @@ This processor function sends the results about up-time to [Application Insights
 #### Table Storage
 Set up an Azure Storage Account. 
 
-[Click here](https://ms.portal.azure.com/#create/Microsoft.StorageAccount-ARM) to get started. 
+- [Click here](https://ms.portal.azure.com/#create/Microsoft.StorageAccount-ARM) to get started. 
 
 - Enter a name for your new storage account (I called mine internetuptime - all lower case!).
 
