@@ -234,10 +234,27 @@ This isn't that the internet went down 96 times, it's that it was down during 96
 
 That's prety much it! You're done. 
 
+#### Extra Credit - SpeedTest
 
+I added a speed test using this same project for s&g's. 
 
+- There is another function [here](https://github.com/jakkaj/UptimePinger/tree/master/functions/InternetUpSpeedTest) that you can install. 
 
+- Then grab the code from [here](https://github.com/jakkaj/NSpeedTest). 
+- Edit Upload.cs and paste in your new Speedtest function url. 
+- Build it and create a new Scheduled Task for every 15 mins (or what ever). 
+- In Application Insights metrics explorer, add a new graph of UploadSpeed_MachineName and DownloadSpeed_MachineName (same graph, they can overlay). 
 
+#### Extra Credit - Push
 
+I've set my system up to create pushes. 
+
+I did this by creating a new maker url call back channel on IFTTT which passes through the value to a push notification. This then sends the push to the IFTTT app on my phone without me needing to write an app just to recive a push. 
+
+It's outside the scope of this article to go though that, but you can see the remenants of it in the *InternetUptimeProcessor* funcion. 
+
+![pushsetting](https://cloud.githubusercontent.com/assets/5225782/23120119/392d1efa-f7af-11e6-889e-4b44f8434f7f.JPG)
+
+If you get stuck, ping me - I'd be happy to expand this article to include it later. 
 
 
