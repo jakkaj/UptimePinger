@@ -57,6 +57,7 @@ public static void Run(TimerInfo myTimer, IQueryable<UptimePing> inputTable, IQu
 
         if(firstInTable!=null && firstInTable.Up){
             //pushUrl.Post("{\"value1\":\"Internet is down\"}");
+            tc.TrackEvent("InternetDown");
         }
     }    
 
