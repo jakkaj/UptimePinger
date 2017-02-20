@@ -165,6 +165,8 @@ Azure Functions can be called via HTTP (as we are above) - but they can also be 
 
 [![Create the processor function](http://img.youtube.com/vi/CHgwn-T8v1Q/0.jpg)](http://www.youtube.com/watch?v=CHgwn-T8v1Q "Create the processor function")
 
+*YouTube*
+
 - Set the cron expression to one minute:
 
 ```
