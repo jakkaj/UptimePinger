@@ -1,0 +1,10 @@
+{
+  "frameworks": {
+    "net46":{
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "2.2.0",
+        "ExtensionGoo": "0.0.8"
+      }
+    }
+   }
+}

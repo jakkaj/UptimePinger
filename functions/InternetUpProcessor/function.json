@@ -1,0 +1,34 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */1 * * * *"
+    },
+    {
+      "type": "table",
+      "name": "inputTable",
+      "tableName": "pingTable",
+      "take": 50,
+      "connection": "internetuptime_STORAGE",
+      "direction": "in"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "tableName": "uptimeTable",
+      "connection": "internetuptime_STORAGE",
+      "direction": "out"
+    },
+    {
+      "type": "table",
+      "name": "uptimeTableIn",
+      "tableName": "uptimeTable",
+      "take": 50,
+      "connection": "internetuptime_STORAGE",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
