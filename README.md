@@ -131,7 +131,9 @@ The next step is to set up the PowerShell script to call the function on a sched
 
 - Jump in to PowerShell and try it out (hint, go to the directory and type PowerShell in the explorer bar at the top).
 
-```.\pinger.ps1```
+```
+.\pinger.ps1
+```
 
 Make sure that it prints out something saying that it worked :P
 
