@@ -1,3 +1,9 @@
+# Log uptime data for an internet connection to Application Insights
+
+*Using Azure Functions, PowerShell, Task Scheduler, Table Storage and Application Insights*
+
+*Jordan Knight, Feb 20, 2017*
+
 Since getting an upgrade recently my home internet has been very unstable with up to 39 drop outs a day. 
 
 I did the usual thing and rang my provider - only to be told that "it's currently working" and there is not much they can do. Of course, it was working when I called. 
@@ -257,4 +263,6 @@ It's outside the scope of this article to go though that, but you can see the re
 
 If you get stuck, ping me - I'd be happy to expand this article to include it later. 
 
+Cheers,
 
+Jordan.
