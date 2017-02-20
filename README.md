@@ -62,6 +62,7 @@ This will create a new function that will act as a web endpoint that you can cal
 
 
 [![Create the Function](http://img.youtube.com/vi/Yn9P7hEWVVE/0.jpg)](http://www.youtube.com/watch?v=Yn9P7hEWVVE "Create the function")
+*YouTube*
 
 You will see a place to drop some code. This is an basic azure function. 
 
@@ -77,9 +78,10 @@ Click *New* next to Storage account aonnection and select the account from the l
 
 Once that is completed, click *Save*. 
 
-You can expand the documentation to see some examples of how to use the new output. 
+You can expand the documentation to see some examples of how to use the new output.
+ 
 [![Add The Output](http://img.youtube.com/vi/cjB6Y8BZwJg/0.jpg)](http://www.youtube.com/watch?v=cjB6Y8BZwJg "Add the output")
-
+*YouTube*
 
 Now you can paste in the function code from [here](https://github.com/jakkaj/UptimePinger/blob/master/functions/InternetUpLogger/run.csx)
 
